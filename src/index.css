@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+label.red {
+  color: #962929;
+}
+
+label.black {
+  color: #3E3A47;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #7299BF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.player-form {
+  height: 200px;
+  width: 200px;
+  text-align: left;
+  margin: auto auto;
+
+}
+
+.player {
+  display: inline-block;
+  margin: 0px 30px;
+  margin-bottom: 30px;
+}
+
+.player-label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.player-info {
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2px 0px;
+}
+
+.player-info.red{
+  color: #962929;
+}
+
+.player-info.black{
+  color: #3E3A47;
+}
+
+.game-status {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.board-col {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.space {
+  border: 2px solid grey;
+  border-radius: 50%;
+  margin: 20px;
+  height: 50px;
+  width: 50px; 
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.piece div {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: -400px;
+  transition: transform 0.5s;
+  visibility: hidden;
+}
+
+.piece .red {
+  visibility: visible;
+  background-color: #962929;
+  transform: translateY(400px);
+}
+
+.piece .black {
+  visibility: visible;
+  background-color: #3E3A47;
+  transform: translateY(400px);
+}
