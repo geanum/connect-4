@@ -1,6 +1,8 @@
 # Connect Four
 Connect Four built in React
 
+https://geanum.github.io/connect-4/
+
 ## Running the Application
 Anything above Node 6 should let you build and run the application (I used Node 10).
 
