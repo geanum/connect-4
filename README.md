@@ -6,7 +6,7 @@ https://geanum.github.io/connect-4/
 ## Running the Application
 Anything above Node 6 should let you build and run the application (I used Node 10).
 
-In the applications directory, run these commands to get the app running on localhost:3000.
+In the application's directory, run these commands to get the app running on localhost:3000.
 ```
 npm install
 npm run start
